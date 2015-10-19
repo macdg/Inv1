@@ -1,0 +1,37 @@
+Friday OCT 16 2015 11:20:00
+
+Proposito de este repositorio es almacenar todo el paquete de Codeginiter v3.00 y de tener las configuraciones y archivos usados y creados (.php) que por el momento se utilizaron para este proyecto Almacen.
+Tambien subir una copia de archivo de configuración de php.ini para la configuración de Apache2, con los cambios propios para programar en php y para el proyecto de Almacen.
+
+Este repositorio contiene de manera general:
+
+1. Todo el comprimido de Codeigniter v3.00.
+
+  a. Archivos de la carpeta config en CI para configurar a codeigniter para proyecto Almacen.
+  b. Archivos en .php fuera y de CI y dentro de CI, el de fuera es de proyecto prueba de php PHPPOO puro y dentro de CI es de proyecto Almacen realizado en CI MVC.
+  c. Archivos y carpetas creadas para uso de funcionalidad de proyecto Almacen como Helper de xml2array.php, carpeta de Uploads de almacenamiento de archivos a procesar en xml y por ultimo carpeta de imagenes con las cuales se almacena y se direcciona a la página de error 404 de manera amigable en CI.
+
+2. Código php que alberga el proyecto de Almacen y derivados de este, así como, código php puro de prueba.
+
+3. Contenido de archivos de configuración de CI que se volvieron a copiar que contenia php puro y que por cambiar de versión de Plataforma Linux se tuvo que cargar de nuevo, pero con configuraciones ya realizadas para uso de CI en proyecto Almacen.
+
+4. Los comprimidos son:
+
+ a. html.tar
+ b. html.tar.gz
+
+Los dos contienen los mismos archivos sin ninguna variante solo que se realizo a modo de respaldo de formato de compresores es decir de .tar y .tar.gz.
+
+
+5. Se realizo una copia exacta del archivo de php.ini con motivo de respaldo, para la configuración de Apache2, que se configuro perzonalizadamente para el uso de CI de manera local para mi PC.
+Este contiene la configuración de mostrar los errores en pantalla de código php de manera gráfica aunque tambien necesito la instalación xdebug para php, además de configuración de localización para configurar la hora en el servidor de Apache2 local y por ultimo las configuraciones de los archivos a subir, como son; las propiedades de tamaños y tiempo ampliandolos para que suban correctamente los archivos xml para el proposito del proyecto Almacen.
+
+6. También se realizo una copia exacta para respaldo del archivo config.inc.php.
+Este archivo es de phpmyadmin y se modifico para la configuración de entrar con el usuario default y sin pedir contraseña, así como de intentar cambiar el tiempo que mantiene abierto en la web phpmyadmin, pero en esta versión de phpmyadmin no funciono esta funcionalidad cambiando el archivo, así que, se realizo desde la web en el phpmyadmin local.
+
+7. La carpeta CI_archivos_modif.
+Es una carpeta renombrada de la carpeta html de los comprimidos, loq ue pasa es que esta carpeta renombrada y modificada tiene el objetivo de tener los archivos que se modificaron para la configuración de CI y los archivos de código que se realizaron, se trataron de borrar todos los demás que no se modificaron o los que son del core del CI original, pero solo se dejaron carpetas minimas en la carpeta applications.
+
+8. NOTA: Para ocupar algún archivo en especifico se tendra que realizar un git clone de todo el comprimido de manera local, para despues de descomprimir el directorio HTML se búsque el archivo que desea.
+
+
